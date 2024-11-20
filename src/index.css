@@ -1,0 +1,220 @@
+body
+{
+  height: 100vh;
+  width: 100%;
+  margin: 0%;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+}
+.container
+{
+  height: 100vh;
+  width: 100%;
+  background-color: #0D0D0D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar
+{
+  height: 144px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+
+}
+.addButton
+{
+  background-color: #99E883;
+  width: 234px;
+  height: 58px;
+  border-radius: 16px;
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#7E46DD;
+  font-size: 24px;
+}
+
+.searchBar
+{
+  
+  width: 280px;
+  height: 144px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.searchBarInput {
+  height: 27px;
+  width: 280px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #E6F9DF;
+  outline: none; 
+  color: #E6F9DF;
+}
+
+.searchBarInput:focus {
+  outline: none; /* Ensure no outline on focus */
+  border-bottom: 1px solid #E6F9DF; /* Retain same styling on focus */
+  color: #E6F9DF;
+}
+.googleImageDiv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  
+}
+.googleImage
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  
+}
+.SaveTextDisplay
+{
+  width: 290px;
+  height: 348px;
+  background-color: #99E883;
+  border-radius: 16px;
+  position: absolute;
+  top: 80px;
+  left: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textDiv
+{
+  width: 242px;
+  height: 212px;
+}
+.saveButton
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 242px;
+  height: 52px;
+  background-color: #1A3A8E;
+  border-radius: 12px;
+  color: #E6F9DF;
+  font-size: 20px;
+}
+.textDivInput
+{
+  width: 242px;
+  height: 212px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+.textDivInput:focus
+{
+  display: flex;
+  align-items: start;
+  outline: none;
+  border: none;
+  width: 242px;
+  height: 212px;
+  background-color: transparent;
+}
+.saveCardCantainer
+{
+  width: 320px;
+  height: 180px;
+  background-color: #1A3A8E;
+  color: #E6F9DF;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.saveCardTop
+{
+  margin-top: 20px;
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.saveCardTopText
+{
+  font-size: 12px;
+}
+.saveCardTopCopy
+{
+  font-size: 32px;
+  color: #0D0D0D;
+
+}
+
+.saveCardTextDiv
+{
+  display: flex;
+  
+  font-size: 16px;
+  width: 80%;
+  overflow: hidden;
+  height: 60%;
+}
+.saveCardImageDiv
+{
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  width: 80%;
+  overflow: hidden;
+  height: 60%;
+}
+.CardDisplay {
+  height: calc(90vh - 64px); /* Adjust height to account for top and bottom spacing */
+  width: 80%;
+  display: grid; /* Use grid layout for precise control */
+  grid-template-columns: repeat(3, 1fr); /* Maximum 3 cards in a row */
+  grid-gap: 16px; /* Space between cards */
+  margin-top: 32px auto;
+  margin-bottom: 32px auto; /* 64px space above and below, center horizontally */
+  overflow-y: auto; /* Allow vertical scrolling */
+  padding: 0 16px; /* Add horizontal padding for better alignment */
+}
+
+/* Hide scrollbar but allow scrolling */
+.CardDisplay::-webkit-scrollbar {
+  display: none; /* For Webkit browsers */
+}
+
+.CardDisplay {
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
+.thumbnail
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.GoogleSignIn
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
