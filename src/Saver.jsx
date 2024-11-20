@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import SaveCard from './components/saveCard';
+import SaveCard from './components/SaveCard';
 
 const Saver = () => {
   const navigate = useNavigate();
